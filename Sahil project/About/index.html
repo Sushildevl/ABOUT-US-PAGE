@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+        }
+        .row{
+            display: flex;
+            gap: 20px;
+        }
+        .row img{
+            position: relative;
+            left: -100px;
+        }
+        .container{
+            width: 1180px;
+            margin: 0 auto;
+            
+        }
+         .about{
+            background-color: #DACFCB;
+            padding: 20px;
+         }
+        .about-txt{
+            text-align: justify;
+            padding: 40px 20px;
+        }
+        .about-txt h1{
+            font-size: 30px;
+        }
+        .about-txt p {
+            padding-top: 10px;
+            line-height: 28px;
+        }
+        .about-box{
+            display: flex;
+
+        }
+        .about-box .col-4{
+            width: 32%;
+            background-color: #f5773d;
+            border-radius: 20px;
+            padding: 40px 20px;
+            color: white;
+        }
+        .col-4 .icon{
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        .icon i{
+            padding-right: 8px;
+        }
+        .about-txt button{
+            background-color: black;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="assets/img/about-img.png" alt="no">
+                </div>
+                <div class="col-6 about-txt">
+                    <h1>About Us</h1>
+                    <!-- <p><b></b></p> -->
+                    <p>
+                     
+                        
+                        Hi, I'm Sushil Kumar, and I provide customized web solutions designed to empower businesses and individuals online. Currently pursuing my MCA at GLA University, Mathura, I'm passionate about creating websites that are visually appealing and functionally robust. I focus on personalized solutions to meet your specific needs, delivering high-quality work with attention to detail. My goal is to stay updated with the latest tech trends, offering cutting-edge solutions that keep you ahead. Whether you're a small business or an individual, I'm here to turn your vision into reality. Let's connect and create something amazing together! 
+                        
+                        ---</p>
+                    <!-- <p>Image from <u>Freepik</u></p> -->
+                    <button>CONTACT US</button>
+                </div>        
+            </div>
+            <div class="row about-box">
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                        CALL US
+                    </div>
+                    
+                    <p>+91 6204731951<br>
+                    +91 954626....</p>
+                </div>
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>LOCATION
+                    </div>
+                    
+                    <p>GLA university Mathura</p>
+                </div>
+                <div class="col-4">
+                    <div class="icon">
+                        <i class="fa-regular fa-clock"></i>HOURS
+                    </div>
+                    <p>Mon – Fri …… 11 am – 8 pm, Sat, Sun  …… 6 am – 8 pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
